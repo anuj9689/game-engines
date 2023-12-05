@@ -1,0 +1,406 @@
+{
+  "name": "Space Monstar",
+  "mathModel": "RTP_96",
+  "rtpInfo": {
+    "mainGame": "96.01%",
+    "buyFeature": [
+      {"label": "Buy Mini Blaster",    "rtp": "96.15%", "id": 1, "bet": 740 },
+      {"label": "Buy Mega Blaster",    "rtp": "96.00%", "id": 2, "bet": 130 },
+      {"label": "Buy Super Blaster",   "rtp": "96.22%", "id": 3, "bet": 170 },
+      {"label": "Buy Sonic Blaster",   "rtp": "96.08%", "id": 4, "bet": 1120},
+      {"label": "Buy Thunder Blaster", "rtp": "95.97%", "id": 5, "bet": 420 },
+      {"label": "Buy Astro Blaster",   "rtp": "95.79%", "id": 6, "bet": 1110},
+      {"label": "Buy Ranger Blaster",  "rtp": "95.77%", "id": 7, "bet": 1060}
+    ]
+  },
+  "symbolStakeMultipliers": {
+    "AA": [0, 0, 0, 0, 0, 0,     0.3,      0.5,    0.7,      1,       1,     2,     2,    2,      5,       5,      5,    6,    6,    7],
+    "BB": [0, 0, 0, 0, 0, 0,     0.3,      0.5,    0.7,      1,       1,     2,     2,    2,      5,       5,      5,    6,    6,    7],
+    "CC": [0, 0, 0, 0, 0, 0,     0.4,      0.6,    0.8,    1.2,     1.2,   2.5,   2.5,  2.5,      6,       6,      6,    7,    7,    8],
+    "DD": [0, 0, 0, 0, 0, 0,     0.4,      0.6,    0.8,    1.2,     1.2,   2.5,   2.5,  2.5,      6,       6,      6,    7,    7,    8],
+    "EE": [0, 0, 0, 0, 0, 0,     0.5,      0.7,      1,    1.5,     1.5,     3,     3,    3,     10,      10,     10,   12,   12,   15],
+    "FF": [0, 0, 0, 0, 0, 0,     0.5,      0.7,      1,    1.5,     1.5,     3,     3,    3,     10,      10,     10,   12,   12,   15],
+    "GG": [0, 0, 0, 0, 0, 0,     0.7,        1,    1.5,    2.5,     2.5,     5,     5,    5,   12.5,    12.5,   12.5,   14,   14,   16],
+    "HH": [0, 0, 0, 0, 0, 0,       1,        2,    2.5,      5,       5,    10,    10,   10,     25,      25,     25,   30,   30,   40]
+  },
+  "rows": 7,
+  "columns": 7,
+  "reelLayoutConfiguration": {
+    "reelLayouts": [
+      {
+        "weight": 50,
+        "index": 0,
+        "baseGame": "NONE",
+        "reels": [
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","EE","BB","BB","BB","FF","CC","GG","GG","GG","CC","CC","CC","FF","DD","DD","HH","FF","FF","FF","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["BB","BB","BB","EE","EE","AA","AA","AA","FF","CC","GG","GG","CC","CC","CC","FF","DD","DD","HH","HH","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","BB","BB","BB","FF","CC","GG","GG","CC","CC","CC","FF","DD","DD","HH","EE","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          }
+        ]
+      },
+      {
+        "weight": 20,
+        "index": 1,
+        "baseGame": "NONE",
+        "reels": [
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","EE","BB","BB","BB","FF","CC","GG","GG","GG","CC","CC","CC","FF","WC","DD","DD","HH","FF","FF","FF","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","WC","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["BB","BB","BB","EE","EE","AA","AA","AA","FF","CC","GG","GG","CC","CC","CC","FF","DD","DD","HH","HH","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","WC","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","BB","BB","BB","FF","CC","GG","GG","CC","CC","CC","FF","DD","DD","HH","EE","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","WC","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","WC","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          }
+        ]
+      },
+      {
+        "weight": 20,
+        "index": 2,
+        "baseGame": "NONE",
+        "reels": [
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","EE","BB","BB","BB","FF","CC","GG","GG","GG","CC","CC","CC","FF","WC","DD","DD","HH","FF","FF","FF","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["BB","BB","BB","EE","EE","AA","AA","AA","FF","CC","GG","GG","CC","CC","CC","FF","WC","DD","DD","HH","HH","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols":  ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","BB","BB","BB","FF","CC","GG","GG","CC","CC","CC","FF","DD","DD","WC","HH","EE","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          }
+        ]
+      },
+      {
+        "weight": 70,
+        "index": 3,
+        "baseGame": "NONE",
+        "reels": [
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","EE","BB","BB","BB","FF","CC","GG","GG","GG","CC","CC","CC","FF","DD","DD","HH","FF","FF","FF","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["BB","BB","BB","EE","EE","AA","AA","AA","FF","CC","GG","GG","CC","CC","CC","FF","WC","DD","DD","HH","HH","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","BB","BB","BB","FF","CC","GG","GG","CC","CC","CC","FF","DD","DD","HH","EE","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          }
+        ]
+      },
+      {
+        "weight": 70,
+        "index": 4,
+        "baseGame": "NONE",
+        "reels": [
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","EE","BB","BB","BB","FF","CC","GG","GG","GG","CC","CC","CC","FF","WC","DD","DD","HH","FF","FF","FF","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["BB","BB","BB","EE","EE","AA","AA","AA","FF","CC","GG","GG","CC","CC","CC","FF","DD","DD","HH","HH","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","BB","BB","BB","FF","CC","GG","GG","CC","CC","CC","FF","DD","DD","HH","EE","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD"]
+          }
+        ]
+      },
+      {
+        "weight": 0,
+        "index": 5,
+        "baseGame": "FREE_SPINS",
+        "reels": [
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","EE","BB","BB","BB","FF","CC","GG","GG","GG","CC","CC","CC","FF","DD","DD","HH","FF","FF","FF","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["BB","BB","BB","EE","EE","EE","AA","AA","AA","FF","FF","FF","CC","GG","GG","GG","CC","CC","CC","FF","DD","DD","HH","HH","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","BB","BB","BB","FF","CC","GG","GG","CC","CC","CC","FF","DD","DD","HH","EE","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD","HH","HH","HH"]
+          }
+        ]
+      },
+      {
+        "weight": 0,
+        "index": 6,
+        "baseGame": "WILD_BURSTER",
+        "reels": [
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","EE","BB","BB","BB","FF","CC","GG","GG","GG","CC","CC","CC","FF","DD","DD","HH","FF","FF","FF","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["BB","BB","BB","EE","EE","EE","AA","AA","AA","FF","FF","FF","CC","GG","GG","GG","CC","CC","CC","FF","DD","DD","HH","HH","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["AA","AA","AA","EE","EE","BB","BB","BB","FF","CC","GG","GG","CC","CC","CC","FF","DD","DD","HH","EE","DD","HH","CC","CC","CC","FF","DD","DD","HH","DD","HH","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","FF","FF","FF","DD","AA","AA","AA","AA","EE","EE","EE","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD","HH","HH","HH"]
+          },
+          {
+            "cascade": "TOP",
+            "symbols": ["FF","CC","GG","GG","CC","CC","CC","EE","EE","EE","DD","AA","AA","AA","AA","FF","FF","FF","BB","BB","BB","HH","BB","BB","HH","AA","EE","EE","BB","BB","BB","HH","BB","HH","DD","DD","DD","HH","HH","HH"]
+          }
+        ]
+      }
+    ]
+  },
+  "bonusGameConfiguration": {
+    "scatterSymbol": "WC",
+    "scatterStakeMultipliers": [0, 0, 0, 0, 0, 0, 0],
+    "freeGameConfiguration": {
+      "triggerCount": {
+        "3": 10,
+        "4": 12,
+        "5": 15
+      },
+      "awardGameBonus": "FREE_SPINS",
+      "multiplier": 1
+    },
+    "wildBursterMeter": {
+      "meterThreshold": 550,
+      "wager": 0.5,
+      "winBG": 0.11,
+      "winFG": 1.14,
+      "bonusOptions": [
+        {
+          "index": 1,
+          "weight": 2,
+          "positions": [3, 10, 17, 21, 22, 23, 24, 25, 26, 27, 31, 38, 45]
+        },
+        {
+          "index": 2,
+          "weight": 8,
+          "positions": [21, 22, 23, 24, 25, 26, 27]
+        },
+        {
+          "index": 3,
+          "weight": 8,
+          "positions": [3, 10, 17, 24, 31, 38, 45]
+        },
+        {
+          "index": 4,
+          "weight": 1,
+          "positions": [7, 8, 9, 10, 13, 14, 17, 20, 21, 24, 27, 28, 31, 34, 35, 38, 39, 40, 41]
+        },
+        {
+          "index": 5,
+          "weight": 1,
+          "positions": [7, 14, 21, 22, 23, 24, 25, 26, 27, 28, 35]
+        },
+        {
+          "index": 6,
+          "weight": 1,
+          "positions": [7, 8, 9, 10, 11, 12, 13, 14, 17, 21, 24, 28, 31, 35, 36, 37, 38, 39, 40, 41]
+        },
+        {
+          "index": 7,
+          "weight": 1,
+          "positions": [7, 8, 9, 10, 11, 12, 13, 14, 17, 21, 24, 25, 28, 31, 33, 35, 36, 37, 38, 41]
+        }
+      ]
+    }
+  },
+  "buyBurstersWithCredits": ["1-740", "2-130", "3-170", "4-1120", "5-420", "6-1110", "7-1060"],
+  "randomConfiguration": {
+    "NONE": {
+      "numbers": 37,
+      "randomList": {
+        "reelLayout": 230,
+        "reel0_0": 37,
+        "reel1_0": 37,
+        "reel2_0": 31,
+        "reel3_0": 37,
+        "reel4_0": 31,
+        "reel5_0": 37,
+        "reel6_0": 37,
+        "reel0_1": 38,
+        "reel1_1": 38,
+        "reel2_1": 31,
+        "reel3_1": 38,
+        "reel4_1": 31,
+        "reel5_1": 38,
+        "reel6_1": 38,
+        "reel0_2": 38,
+        "reel1_2": 37,
+        "reel2_2": 32,
+        "reel3_2": 37,
+        "reel4_2": 32,
+        "reel5_2": 37,
+        "reel6_2": 37,
+        "reel0_3": 37,
+        "reel1_3": 37,
+        "reel2_3": 32,
+        "reel3_3": 37,
+        "reel4_3": 31,
+        "reel5_3": 37,
+        "reel6_3": 37,
+        "reel0_4": 38,
+        "reel1_4": 37,
+        "reel2_4": 31,
+        "reel3_4": 37,
+        "reel4_4": 31,
+        "reel5_4": 37,
+        "reel6_4": 37,
+        "bonusPicker": 22
+      }
+    },
+    "WILD_BURSTER": {
+      "numbers": 9,
+      "randomList": {
+        "reelLayout": 1,
+        "reel0": 37,
+        "reel1": 40,
+        "reel2": 37,
+        "reel3": 40,
+        "reel4": 34,
+        "reel5": 40,
+        "reel6": 40,
+        "bonusPicker": 22
+      }
+    },
+    "FREE_SPINS": {
+      "numbers": 9,
+      "randomList": {
+        "reelLayout": 1,
+        "reel0": 37,
+        "reel1": 40,
+        "reel2": 37,
+        "reel3": 40,
+        "reel4": 34,
+        "reel5": 40,
+        "reel6": 40,
+        "bonusPicker": 22
+      }
+    }
+  }
+}

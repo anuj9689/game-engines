@@ -1,0 +1,1 @@
+ java -Xms1024m -Xmx4096m -jar -Dspring.profiles.active=emulator emulator/build/libs/game-engine-moonstar-emulator-1.0.1-SNAPSHOT-boot.jar noOfRuns=100_000_000 batchSize=1 stakePerLine=1 report=true buyFeature=true id=7
