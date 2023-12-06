@@ -1,0 +1,40 @@
+name: Publish Moonstar Engine
+
+on:
+  push:
+    branches:
+      - "main"
+    paths:
+      - 'game-engines/moonstar/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: game-engines
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt' # See 'Supported distributions' for available options
+          java-version: '17'
+
+      - name: Build
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
+          restore-keys: ${{ runner.os }}-gradle
+
+      - name: grant execute permissions
+        run: |
+          cd moonstar
+          chmod +x ./gradlew
+          ./gradlew
