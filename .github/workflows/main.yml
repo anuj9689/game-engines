@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - "main"
-    paths:
-      - 'game-engines/moonstar/**'
 
 jobs:
   build:
