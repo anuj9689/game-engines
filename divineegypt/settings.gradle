@@ -1,0 +1,24 @@
+pluginManagement {
+    apply from: '../../properties.gradle'
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        maven {
+            name = "GradlePackages"
+            credentials {
+                username = System.getenv("GPR_USER")
+                password = System.getenv("GPR_KEY")
+            }
+            url = "https://maven.pkg.github.com/$GITHUB_ORG/*"
+        }
+    }
+
+    plugins {
+        id 'org.springframework.boot' version "$SPRING_BOOT_VERSION"
+        id 'com.github.johnrengelman.shadow' version "$SHADOW_VERSION"
+    }
+}
+
+include "engine", "emulator"
+findProject(':engine')?.name = 'game-engine-divineegypt'
+findProject(':emulator')?.name = 'game-engine-divineegypt-emulator'

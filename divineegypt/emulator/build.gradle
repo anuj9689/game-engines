@@ -1,0 +1,25 @@
+plugins {
+    id "java-library"
+    id 'org.springframework.boot'
+}
+
+version "$VERSION"
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter'
+
+    implementation project(":game-engine-divineegypt")
+//    implementation 'com.lihaoyi:autowire_2.11:0.2.6'
+}
+
+jar {
+    enabled false
+}
+
+bootJar {
+    archiveClassifier = 'boot'
+    manifest {
+        attributes 'Main-Class': 'org.springframework.boot.loader.PropertiesLauncher'
+        attributes 'Start-Class': 'com.algomics.torpedo.gaming.engine.neon.emulator.NeonEmulator'
+    }
+}

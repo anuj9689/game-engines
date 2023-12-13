@@ -1,0 +1,212 @@
+{
+  "name": "Devine Egypt",
+  "mathModel": "RTP_96",
+  "rtpInfo" : {
+    "mainGame" : "95.90%",
+    "buyFeature" : [
+      { "label": "Buy Egyptian Wheel", "rtp" : "95.95%", "id": 1, "bet" : 15000 }
+    ]
+  },
+  "jackpotInfo" : [
+      { "id": 1, "label": "GRAND", "type" : "MULTI", "value": 10000 },
+      { "id": 2, "label": "MAJOR", "type" : "MULTI", "value": 5000  },
+      { "id": 3, "label": "MINOR", "type" : "MULTI", "value": 2500  }
+    ],
+
+  "symbolStakeMultipliers": {
+    "WC":   [0, 0, 0, 0, 0, 0, 0],
+    "BG":   [0, 0, 0, 0, 0, 0, 0],
+    "SC":   [0, 0, 0, 0, 0, 0, 0],
+    "AA":   [0, 0, 1.2,         2 ,            4      ,10 ,15],
+    "BB":   [0, 0, 1,           1.333333333 ,  2.5      ,6 ,12],
+    "CC":   [0, 0, 0.666666667, 1 ,            1.5      ,5 ,8],
+    "DD":   [0, 0, 0.5,         0.6 ,          1      ,3 ,5],
+    "EE":   [0, 0, 0.333333333, 0.666666667 ,  1      ,2.5 ,3],
+    "FF":   [0, 0, 0.333333333, 0.666666667 ,  1      ,2.5 ,3],
+    "GG":   [0, 0, 0.233333333, 0.5 ,          0.8      ,1.5 ,2],
+    "HH":   [0, 0, 0.133333333, 0.3 ,          0.6      ,0.8 ,1.5],
+    "JJ":   [0, 0, 0.133333333, 0.2 ,          0.4      ,0.6 ,1],
+    "KK":   [0, 0, 0.133333333, 0.2 ,          0.3      ,0.5 ,0.6],
+    "LL":   [0, 0, 0.1,         0.166666667 ,  0.266666667,      0.4 ,0.5]
+  },
+  "rows": 4,
+  "columns": 5,
+  "reelLayoutConfiguration": {
+    "reelLayouts": [
+      {
+        "index": 0,
+        "baseGame": "NONE",
+        "weight": 0,
+        "reels": [
+          { "symbols":["AA","EE","FF","GG","DD","CC","JJ","FF","LL","EE","GG","LL","KK","JJ","JJ","JJ","KK","DD","HH","CC","HH","LL","GG","CC","HH","BB","GG","KK","HH","DD","FF","KK"]
+          },
+          { "symbols":["FF","FF","CC","GG","HH","LL","JJ","KK","DD","BB","FF","JJ","GG","WC","GG","LL","JJ","JJ","HH","KK","KK","KK","BB","BG","KK","KK","BB","AA","CC","FF","BB","DD","BG","JJ","DD","CC","BG","HH","LL","EE","JJ","JJ","KK"]
+          },
+          { "symbols":["DD","LL","KK","WC","BB","BB","DD","EE","CC","LL","DD","KK","GG","GG","BG","FF","CC","CC","CC","LL","CC","LL","KK","BG","CC","LL","KK","LL","CC","EE","AA","JJ","JJ","CC","CC","LL","AA","HH","HH","LL","KK"]
+          },
+          { "symbols":["FF","FF","EE","BG","GG","CC","DD","AA","JJ","JJ","CC","AA","JJ","DD","DD","EE","BG","FF","BB","BB","HH","HH","LL","BG","HH","HH","LL","FF","EE","DD","DD","HH","HH","KK","AA","LL","DD","DD","WC","KK","CC","CC"]
+          },
+          { "symbols":["DD","DD","JJ","BB","BB","EE","GG","LL","DD","CC","LL","GG","CC","CC","DD","BB","FF","FF","BB","BB","BB","HH","HH","DD","BB","HH","HH","BB","WC","DD","KK","KK","AA","CC","HH","HH","EE","EE","AA","GG","GG","DD","DD","HH","KK","KK","BB","GG","HH","CC","DD","GG"]
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "baseGame": "FREE_SPINS",
+        "weight": 0,
+        "reels": [
+          { "symbols":["BB","AA","LL","LL","AA","AA","AA","DD","FF","FF","GG","AA","LL","CC","JJ","BB","KK","KK","CC","DD","HH","BB","GG","CC","AA","DD","DD","KK","HH","LL","FF","EE","JJ","KK","EE","EE","GG","GG","KK","KK","BB","BB","FF","KK","LL"]
+          },
+          { "symbols":["FF","CC","CC","AA","GG","LL","AA","JJ","FF","FF","AA","BB","EE","WC","BB","AA","JJ","AA","HH","WC","CC","KK","BB","SC","JJ","WC","DD","HH","SC","GG","FF","DD","DD","AA","JJ","CC","HH","HH","WC","EE","JJ","JJ","KK","KK","CC"]
+          },
+          { "symbols":["DD","LL","KK","AA","BB","BB","AA","FF","BB","WC","KK","AA","EE","GG","FF","FF","CC","CC","WC","LL","AA","KK","AA","SC","CC","GG","GG","LL","SC","DD","EE","WC","JJ","CC","CC","LL","AA","HH","HH","LL","KK","KK","KK","LL","JJ"]
+          },
+          { "symbols":["FF","FF","EE","EE","GG","GG","DD","JJ","KK","AA","CC","CC","DD","JJ","HH","AA","FF","FF","BB","BB","HH","HH","LL","SC","GG","EE","EE","FF","SC","DD","DD","WC","BB","WC","BB","LL","DD","DD","KK","KK","CC","CC","GG","GG","LL"]
+          },
+          { "symbols":["DD","DD","AA","JJ","LL","EE","EE","DD","KK","KK","LL","GG","GG","WC","CC","CC","FF","AA","BB","KK","BB","HH","HH","SC","AA","DD","JJ","KK","WC","DD","KK","KK","CC","CC","HH","HH","EE","EE","GG","GG","GG","DD","DD","HH","HH"]
+          },
+          { "symbols":["DD","LL","BB","KK","EE","BB","WC","FF","DD","LL","KK","AA","GG","GG","FF","FF","KK","CC","HH","LL","KK","KK","KK","SC","WC","GG","GG","LL","SC","AA","EE","JJ","JJ","CC","CC","LL","AA","HH","HH","LL","KK","KK","KK","LL","JJ"]
+          },
+          { "symbols":["FF","FF","EE","EE","GG","GG","DD","DD","KK","WC","CC","CC","JJ","WC","AA","AA","FF","WC","BB","BB","HH","HH","WC","CC","GG","EE","EE","FF","CC","DD","DD","HH","HH","WC","AA","LL","DD","DD","KK","KK","CC","CC","GG","GG","LL"]
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "baseGame": "BUY_FEATURE",
+        "weight": 0,
+        "reels": [
+          { "symbols":["BB","DD","CC","AA","BB","CC","DD","EE","BB","DD","CC","DD"]
+          },
+          { "symbols":["GG","HH","EE","BG","KK","GG","KK","BG","LL","DD","GG","BG"]
+          },
+          { "symbols":["HH","GG","FF","BG","CC","CC","HH","BG","AA","BB","FF","BG"]
+          },
+          { "symbols":["HH","HH","GG","BG","HH","CC","EE","BG","CC","DD","GG","BG"]
+          },
+          { "symbols":["EE","FF","HH","AA","EE","DD","EE","EE","EE","DD","GG","DD"]
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "baseGame": "BUY_FREE_SPINS",
+        "weight": 0,
+        "reels": [
+          { "symbols":["BB","AA","LL","LL","AA","AA","AA","DD","FF","FF","GG","AA","LL","CC","JJ","BB","KK","KK","CC","DD","HH","BB","GG","CC","AA","DD","DD","KK","HH","LL","FF","EE","JJ","KK","EE","EE","GG","GG","KK","KK","BB","BB","FF","KK","LL"]
+          },
+          { "symbols":["FF","CC","CC","AA","GG","LL","AA","JJ","FF","FF","AA","BB","EE","WC","BB","AA","JJ","AA","HH","WC","CC","KK","BB","SC","JJ","WC","DD","HH","SC","GG","FF","DD","DD","AA","JJ","CC","HH","HH","WC","EE","JJ","JJ","KK","KK","CC"]
+          },
+          { "symbols":["DD","LL","KK","AA","BB","BB","AA","FF","BB","WC","KK","AA","EE","GG","FF","FF","CC","CC","WC","LL","AA","KK","AA","SC","CC","GG","GG","LL","SC","DD","EE","WC","JJ","CC","CC","LL","AA","HH","HH","LL","AA","KK","KK","LL","JJ"]
+          },
+          { "symbols":["FF","FF","EE","EE","GG","GG","DD","JJ","KK","AA","CC","CC","DD","JJ","HH","AA","FF","FF","BB","BB","HH","HH","LL","SC","GG","EE","EE","FF","SC","DD","DD","WC","BB","WC","BB","LL","DD","DD","KK","CC","CC","CC","GG","GG","LL"]
+          },
+          { "symbols":["DD","DD","AA","JJ","LL","EE","EE","DD","KK","KK","LL","GG","GG","WC","CC","CC","FF","AA","BB","KK","BB","HH","HH","SC","AA","DD","JJ","KK","WC","DD","KK","KK","CC","CC","HH","HH","EE","EE","GG","GG","AA","DD","DD","HH","HH"]
+          },
+          { "symbols":["DD","LL","BB","KK","EE","BB","WC","FF","DD","LL","KK","AA","GG","GG","FF","FF","KK","CC","HH","LL","KK","KK","KK","SC","WC","GG","GG","LL","SC","AA","EE","JJ","JJ","CC","CC","LL","AA","HH","HH","LL","KK","KK","KK","LL","JJ"]
+          },
+          { "symbols":["FF","FF","EE","EE","GG","GG","DD","DD","KK","WC","CC","CC","JJ","WC","AA","AA","FF","WC","BB","BB","HH","HH","WC","CC","GG","EE","EE","FF","CC","DD","DD","HH","HH","WC","AA","LL","DD","DD","KK","KK","CC","CC","GG","GG","LL"]
+          }
+        ]
+      }
+    ]
+  },
+  "bonusGameConfiguration": {
+    "scatterSymbol": "BG",
+    "scatterStakeMultipliers": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "freeGameConfiguration": {
+      "triggerCount": {
+        "3": 5,
+        "4": 5,
+        "5": 5,
+        "6": 5,
+        "7": 5
+
+      },
+      "awardGameBonus": "FREE_SPINS",
+      "multiplier": 1
+    },
+
+  "jackpotWheelOptions": [
+      {
+        "index": 1,
+        "weight": 2500,
+        "type": "FREE_GAME",
+        "value": 5
+      },
+      {
+        "index": 2,
+        "weight": 50,
+        "type": "GRAND",
+        "value": 666.6
+      },
+      {
+        "index": 3,
+        "weight": 2500,
+        "type": "FREE_GAME",
+        "value": 8
+      },
+      {
+        "index": 4,
+        "weight": 70,
+        "type": "MAJOR",
+        "value": 333.34
+      },
+      {
+        "index": 5,
+        "weight": 2500,
+        "type": "FREE_GAME",
+        "value": 12
+      },
+      {
+        "index": 6,
+        "weight": 2500,
+        "type": "FREE_GAME",
+        "value": 15
+      },
+      {
+        "index": 7,
+        "weight": 120,
+        "type": "MINOR",
+        "value": 166.66
+      },
+      {
+        "index": 8,
+        "weight": 200,
+        "type": "JACKPOT",
+        "value": 15
+      },
+      {
+        "index": 9,
+        "weight": 250,
+        "type": "JACKPOT",
+        "value": 10
+      },
+      {
+        "index": 10,
+        "weight": 300,
+        "type": "JACKPOT",
+        "value": 5
+      },
+      {
+        "index": 11,
+        "weight": 250,
+        "type": "JACKPOT",
+        "value": 3
+      },
+      {
+        "index": 12,
+        "weight": 500,
+        "type": "JACKPOT",
+        "value": 2
+      }
+  ]
+  },
+  "buyFeatureBetMultiplier": 35
+}

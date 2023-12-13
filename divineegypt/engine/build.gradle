@@ -1,0 +1,50 @@
+plugins {
+    id 'com.github.johnrengelman.shadow'
+    id "java-library"
+}
+
+version "$VERSION"
+
+dependencies {
+    api "com.algomics:rng:4.0.0-SNAPSHOT"
+    api "com.algomics.gaming.engine:game-engine-api:4.0.0-SNAPSHOT"
+    api "com.algomics.gaming.engine:game-engine-slots:4.0.0-SNAPSHOT"
+    api "com.algomics:class-loaders:4.0.0-SNAPSHOT"
+//    implementation 'com.lihaoyi:autowire_2.11:0.2.6'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine'
+    testImplementation 'org.springframework:spring-test'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params'
+    testImplementation "com.algomics.gaming.engine:game-engine-slots-forced-results:4.0.0-SNAPSHOT"
+
+    implementation 'com.monitorjbl:json-view:1.1.0'
+
+    api 'com.fasterxml.jackson.core:jackson-databind'
+}
+
+shadowJar {
+    dependencies {
+        exclude(dependency('com.algomics.gaming.engine:game-engine-api:.*'))
+        exclude(dependency {
+            it.moduleGroup!='com.monitorjbl' && it.moduleGroup != 'com.algomics.gaming.engine'
+        })
+    }
+}
+test{
+    useJUnitPlatform()
+}
+jar{
+    manifest {
+        attributes(
+                'Build-Revision' :  project.version,
+                'Main-Class'     : "com.algomics.torpedo.gaming.engine.divineegypt.service.NeonGameEngine",
+                'Gaffe-Artifact' : "game-engine-slots-forced-results-$GAFFE_TOOL_VERSION"
+        )
+    }
+}
+
+artifacts {
+    shadowJar
+}
+
+build.dependsOn(shadowJar)

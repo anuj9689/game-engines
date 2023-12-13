@@ -1,0 +1,36 @@
+plugins {
+    id 'org.springframework.boot' apply false
+}
+
+apply from: "${project.rootDir}/../../properties.gradle"
+
+
+subprojects {
+
+    group "com.algomics.gaming.engine"
+    version "$VERSION"
+
+
+    apply plugin: 'io.spring.dependency-management'
+
+    dependencyManagement {
+        imports {
+            mavenBom org.springframework.boot.gradle.plugin.SpringBootPlugin.BOM_COORDINATES
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:${SPRING_CLOUD_VERSION}"
+        }
+    }
+
+    configurations.all {
+        resolutionStrategy {
+            cacheChangingModulesFor 0, 'seconds'
+        }
+    }
+
+    apply from: "${project.rootDir}/../../maven-publish.gradle"
+    apply from: "${project.rootDir}/../../java-library.gradle"
+    apply from: "${project.rootDir}/../../repos.gradle"
+}
+
+//dependencies {
+//    implementation 'com.lihaoyi:autowire_2.11:0.2.6'
+//}
