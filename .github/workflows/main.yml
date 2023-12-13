@@ -21,3 +21,20 @@ jobs:
         with:
           distribution: 'adopt' # See 'Supported distributions' for available options
           java-version: '17'
+
+      - name: Build
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
+          restore-keys: ${{ runner.os }}-gradle
+
+      - name: grant execute permissions
+        run: |
+          cd moonstar
+          chmod +x ./gradlew
+          export USER=XXX
+          export KEY=XXX
+          ./gradlew publishAllPublicationsToGitHubPackagesRepository
